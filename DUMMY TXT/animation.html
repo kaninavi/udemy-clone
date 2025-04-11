@@ -1,0 +1,36 @@
+<style>
+    .one{
+        background-color: red;
+        height: 100px;
+        width: 100px;
+    }
+    .two{
+        background-color: blue;
+        height: 100px;
+        width: 100px;
+    }
+    .container{
+        display: flex;
+        gap: 10px;
+    }
+    /* mobile view */
+    @media screen and (max-width:600px){
+        .two{
+            display: none;
+        }
+        .one{
+            border-radius: 50%;
+        }
+
+    }
+</style>
+<div class="container">
+    <div class="one"></div>
+    <div class="two"></div>
+    <div class="one"></div>
+    <div class="two"></div>
+    <div class="one"></div>
+    <div class="two"></div>
+    <div class="one"></div>
+    <div class="two"></div>
+</div>
